@@ -28,8 +28,6 @@ Hactiv8 - Livecode Phase 2 Week 4
         - get: '/byBook'      ==> getComments by book: get Comments by book id
         - post: '/save'       ==> createComment: save new Comment posted by user
         - delete: '/delete'   ==> deleteComment: delete Comment by authorised user
-        - put: '/upvote'      ==> updateComment: update Comment with 1 'like'
-        - put: '/downvote     ==> updateComment: update Comment with 1 'dislike'
 
 ![Spiderman](http://octodex.github.com/images/spidertocat.png)  
 

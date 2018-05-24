@@ -9,9 +9,9 @@ router.get('/', function(req, res, next) {
 
 router.use('/users', require('./users'));
 
-// router.use('/books', require('./books'));
+router.use('/books', require('./books'));
 
-// router.use('/comments', require('./comments'));
+router.use('/comments', require('./comments'));
 
 
 module.exports = router;
